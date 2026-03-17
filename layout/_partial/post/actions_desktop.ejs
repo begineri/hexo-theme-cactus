@@ -64,7 +64,7 @@
       <div id="toc">
         <%- page.custom_toc %>
       </div>
-      <% } else { var toc_options={ max_depth: 6 }; if (page.toc_depth) { toc_options.max_depth=page.toc_depth; } let
+      <% } else { var toc_options={ min_depth: 1, max_depth: 6 }; if (page.toc_depth) { toc_options.max_depth=page.toc_depth; } let
         tocHTML=toc(page.content, toc_options); if (tocHTML !=='' ) { %>
         <div id="toc">
           <%- tocHTML %>

@@ -15,10 +15,10 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
-  # about: /about/
+  about: /about/
   articles: /archives/
   Tags: /tags/
-  projects: /  #http://github.com/probberechts
+  #projects: /  #http://github.com/probberechts
   Logs: /changelog/
 
 
@@ -31,7 +31,7 @@ nav:
 social_links:
   -
     icon: github
-    link: /
+    link: https://github.com/begineri/Blog
   -
     icon: twitter
     link: /
@@ -148,7 +148,7 @@ page_width: 48
 ##############################################################################
 
 # Enable or disable the RSS feed.
-rss: false
+rss: false #/atom.xml
 
 # Turn your web pages into graph objects (see http://ogp.me).
 open_graph:
